@@ -93,7 +93,7 @@ function WordGuess(phrase){
         this.checkOver();
     }
     this.lose=function(){
-        if(this.attemptsRemain===0){
+        if(this.attemptsRemain===1){
             // console.log("You lose!");
             this.exit();
         }else{

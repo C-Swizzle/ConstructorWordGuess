@@ -5,7 +5,7 @@ for (var i=0;i<alphabet.length;i++){
     capsAlphabet.push(alphabet[i].toUpperCase());
 }
 const Word=require("./letter");
-var wordArray=["something","Going Back to cali","back to the future","laptop","infringement","realtor","university",
+var wordArray=["something","laptop","infringement","realtor","university",
 "papyrus","greyhound","videogames","computer","mathematics","psychology","gardening","protein"];
 var otherword= new Word(wordArray[Math.floor(Math.random()*wordArray.length)]);
 // console.log(word);
