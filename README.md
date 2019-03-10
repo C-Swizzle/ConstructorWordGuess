@@ -19,3 +19,4 @@ Some screenshots of the gameplay can be found below.
 [User loss](./assets/loss.png)  
 [Response to non-alphabet input](./assets/special.png)
 [Input of more than one letter](./assets/morethanone.png)  
+[Response to the same guess](./assets/again.png)
