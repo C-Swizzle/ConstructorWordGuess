@@ -56,6 +56,9 @@ function WordGuess(phrase){
     this.hidden=tempArray;
    
     this.checkLetter=function(letter){
+        if(this.alreadyGuessed.indexOf(letter)===-1){
+            this.alreadyGuessed.push(letter);
+        
         console.log("You guessed "+letter.toUpperCase());
         var temp=false;
         for (var i=0;i<this.word.length;i++){
@@ -66,9 +69,13 @@ function WordGuess(phrase){
         }
         this.showSpaces(temp);
 
+    } else{
+        console.log("You already guessed "+letter);}
+        // console.log(this.hidden.join(" "));
+
     }
     this.showSpaces=function(bool){
-        console.log(this.hidden.join(" "));
+        // console.log(this.hidden.join(" "));
         if(bool){
             this.win();
         }else{
