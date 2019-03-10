@@ -59,13 +59,19 @@ function WordGuess(phrase){
         if(this.alreadyGuessed.indexOf(letter)===-1){
             this.alreadyGuessed.push(letter);
         
-        console.log("You guessed "+letter.toUpperCase());
         var temp=false;
         for (var i=0;i<this.word.length;i++){
             if(letter.toUpperCase()===this.word[i]){
                 this.hidden[i]=this.word[i];
                 var temp=true;
             }
+        }
+        if(temp){
+        console.log("You guessed "+letter.toUpperCase()+" correctly!");
+
+        } else{
+        console.log("You guessed "+letter.toUpperCase()+" incorrectly!");
+
         }
         this.showSpaces(temp);
 
