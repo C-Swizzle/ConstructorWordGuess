@@ -12,9 +12,9 @@ After the word is revealed or the user runs out of tries, the game ends. If the 
 
 Some screenshots of the gameplay can be found below.
 
-[Beginning User Prompt](./assets/gamestart.PNG)  
-[Correct Guess](./assets/correct.PNG)  
-[Incorrect Guess](./assets/incorrect.PNG)  
-[Input of more than one letter](./assets/morethanone.PNG)  
-[User win](./assets/WIN.PNG)  
-[User loss](./assets/loss.PNG)  
+[Beginning User Prompt](./assets/gamestart.png)  
+[Correct Guess](./assets/correct.png)  
+[Incorrect Guess](./assets/incorrect.png)  
+[Input of more than one letter](./assets/morethanone.png)  
+[User win](./assets/WIN.png)  
+[User loss](./assets/loss.png)  
