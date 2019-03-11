@@ -1,7 +1,7 @@
 # ConstructorWordGuess
 
 This is a node based command line application which essentially is hangman.  
-In order to run this game, you will need to `npm install` within the root directory, with node.js installed on your machine.  
+In order to run this game, you will need to `npm install` within the root of the repository, with node.js installed on your machine.  
 Then the user will do `node game` within the root of the repository.
 
 The typical gameplay flow shows the user a number of blank spaces which can be a word of that length. The user is prompted for a guess
